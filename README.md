@@ -47,26 +47,39 @@ All code and analysis live in **`Predictive Analysis of Housing Price.ipynb`
 ## 🚀 Quick Start
 
 ### 1️⃣  Clone the repository and enter the project folder
+```bash
 git clone https://github.com/ABTG716/Housing_price.git
 cd Housing_price
+```
 
 ### 2️⃣  Create and activate a virtual environment
+```bash
 python -m venv .venv
-source .venv/bin/activate 
-### ➜ Windows: .venv\Scripts\activate
+source .venv/bin/activate
+```
+#### ➜ Windows: .venv\Scripts\activate
 
 ### 3️⃣  Install dependencies
-pip install -r requirements.txt 
+```bash
+pip install -r requirements.txt
+```
 #### pandas, numpy, scikit‑learn, xgboost, lightgbm, catboost, seaborn, matplotlib
 
 ### 4️⃣  Launch the notebook (GUI)
+```bash
 jupyter notebook "Predictive Analysis of Housing Price.ipynb"
+```
 
 ###     ── or run it headless ──
+```bash
 jupyter nbconvert --to notebook --execute "Predictive Analysis of Housing Price.ipynb"
+```
 
 ### 5️⃣  Verify the submission file
-ls -l prediction.csv               # should contain:  Id,  SalePrice
+```bash
+ls -l prediction.csv
+```
+#### should contain:  Id,  SalePrice
 
 ---
 
